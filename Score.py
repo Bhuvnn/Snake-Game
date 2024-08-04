@@ -5,7 +5,7 @@ class Scoreboard(Turtle):
         super().__init__()
         self.score=0
         self.high_score=0
-        with open(r"D:\Python Practice\Python Projects\Snake-Game\High_score.txt") as data:
+        with open(r"score.txt") as data:
             self.high_score=int(data.read())
         self.color("white")
         self.penup()  
